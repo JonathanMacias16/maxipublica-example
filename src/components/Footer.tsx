@@ -41,7 +41,8 @@ const Footer = () => {
         <div className={"border-t border-gray-300 mt-10 mb-10 md:mb-20"} />
         <div className={"md:flex grid md:gap-0 gap-4 justify-between"}>
           <span className={"text-[#C5C3C3]"}>
-            Copyright © 2021 Automotors. Todos los derechos reservados.
+            Copyright © {new Date().getFullYear()} Automotors. Todos los
+            derechos reservados.
           </span>
           <ul>
             <li className={"inline-block mr-4"}>
