@@ -56,10 +56,10 @@ const ModalGallery = ({
           className={"absolute md:right-22 right-6 -top-14 cursor-pointer"}
           onClick={() => setModalOpen(false)}
         />
-        <div className={"flex justify-center items-center md:gap-10 gap-1"}>
+        <div className={"flex justify-center items-center lg:gap-10 gap-1"}>
           <span
             className={
-              "bg-white md:size-12 size-6 grid place-items-center rounded-full cursor-pointer"
+              "bg-white lg:size-12 size-6 grid place-items-center rounded-full cursor-pointer"
             }
             onClick={handleNext}
           >
@@ -74,7 +74,7 @@ const ModalGallery = ({
           />
           <span
             className={
-              "bg-white md:size-12 size-6 grid place-items-center rounded-full cursor-pointer"
+              "bg-white lg:size-12 size-6 grid place-items-center rounded-full cursor-pointer"
             }
             onClick={handleNext}
           >
